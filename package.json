@@ -1,0 +1,34 @@
+{
+  "name": "modern-javascript-styles",
+  "version": "1.0.0",
+  "description": "The styles for the modern-javascript talk",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zuhlke-days-2015/modern-javascript-styles.git"
+  },
+  "author": "Kevin Denver",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/zuhlke-days-2015/modern-javascript-styles/issues"
+  },
+  "homepage": "https://github.com/zuhlke-days-2015/modern-javascript-styles",
+  "devDependencies": {
+    "autoprefixer-core": "^5.2.1",
+    "browser-sync": "^2.8.0",
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.3",
+    "gulp-minify-css": "^1.2.0",
+    "gulp-postcss": "^5.1.10"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "font-awesome": "^4.3.0",
+    "normalize.css": "^3.0.3"
+  }
+}
